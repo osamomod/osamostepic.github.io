@@ -1,0 +1,290 @@
+.shapka {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятости */
+    z-index: 1000; /* Устанавливаем z-index, чтобы шапка была поверх других элементов */
+    width: 1219px;
+    height: 84px;
+    padding-left: 55px;
+    padding-right: 55px;
+    left: 50%; /* Нужно для того, чтобы размещать фиксированный блок по центру*/
+    transform: translateX(-50%); /* Нужно для того, чтобы размещать фиксированный блок по центру*/
+    background-color: #007765;         
+}
+
+.logo   {
+    position: absolute;
+    width: 184px;
+    height: 45px;
+    left: 55px;
+    top: 20px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #15d2b9; /* Цвет текста при наведении */
+}
+
+.problem {
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    left: 741px;
+    top: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.PiedPiperCoin  {
+    position: absolute;
+    width: 154px;
+    height: 29px;
+    left: 893px;
+    top: 29px;  
+}
+
+.team {
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 1070px;
+    top: 29px;   
+}
+
+.stuckone   {
+    position: absolute;
+    width: 7px;
+    height: 29px;
+    left: 878px;
+    top: 28px;
+    color: #FFFFFF;
+}
+
+.stucktwo   {    
+    position: absolute;
+    width: 7px;
+    height: 29px;
+    left: 1055px;
+    top: 29px;
+    color: #FFFFFF;   
+}
+
+.allheader {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.secondbox {
+    width: 1219px;
+    height: 403px;
+    margin: 84px auto 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    background: url(image@2x.png) center center no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 84px;
+    text-align: center;    
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+}
+
+.thirdbox {
+    width: 1219px;
+    height: 719px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column; /* Flexbox direction set to column */
+    justify-content: center; /* Align content vertically */
+    align-items: center; /* Align content horizontally */
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.thirdbox h1 {
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center; /* Center align h1 text */   
+    margin-bottom: 0cap;
+}
+
+.thirdbox p {
+    align-self: flex-start; /* Align p text to the left */   
+}
+
+.fourth {
+    width: 1219px;
+    height: 483px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    background: url(fourthpicture.png) center center no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 62px;
+    color: #FFFFFF;
+    line-height: 56px;
+    text-align: center;    
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+}
+
+.fourth p {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.fifth {
+    width: 1219px;
+    height: 504px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;   
+    margin-bottom: 0cap; 
+}
+
+.fifth h1 {
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center; /* Center align h1 text */   
+    margin-bottom: 0cap;
+}
+
+.fifth p {
+    align-self: flex-start; /* Align p text to the left */      
+}
+
+.imagesmalllogo {
+    float: left;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.sixthbox {
+    width: 1219px;
+    height: 845px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #EEEEEE;
+    margin-bottom: 0cap;
+}
+.sixthbox h1 {
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center; 
+    transform: translateY(50%); /* Таким образом опускаем по вертикали H1 !!! */     
+    margin-bottom: 50px;
+}
+
+.gallery {
+    text-align: center;    
+}
+
+.gallery figure {
+    display: inline-block;    
+    margin: 5.5%;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */      
+}
+
+.gallery figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.italic {  
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.seventhbox {
+    width: 1219px;
+    height: 176px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;    
+    background: #333333;
+    display: flex;
+    flex-direction: column; /* Flexbox direction set to column */
+    justify-content: center; /* Align content vertically */
+    align-items: center; /* Align content horizontally */
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seventhbox p {
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
